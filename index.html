@@ -1,76 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Subway-station-network</title>
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+JP:wght@100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap"
-			rel="stylesheet"
-		/>
-		<link rel="stylesheet" href="styles.css" />
-	</head>
-	<body>
-		<main>
-			<div class="date">22/09/2025</div>
-			<div class="lig-cor-row">
-				<div class="ligne-B">
-					<h1 class="ligne-B-text">Ligne B - Traffic perturbé</h1>
-				</div>
-				<div class="correspondances">
-					<div class="colonne-part">
-						<h2>Gare Part-Dieu</h2>
-						<div class="ronds"></div>
-						<div class="tram-T">
-							<p class="T">T</p>
-							<div class="tram">1</div>
-							<div class="tram">3</div>
-							<div class="tram">4</div>
-						</div>
-						<div class="tram-T">
-							<p class="T">C</p>
-							<div class="bus">1</div>
-							<div class="bus">2</div>
-							<div class="bus">3</div>
-							<div class="bus">6</div>
-						</div>
-					</div>
-					<div class="colonne-part">
-						<h2>Brotteaux</h2>
-						<div class="ronds"></div>
-						<div class="tram-T">
-							<p class="T">T</p>
-							<div class="tram">1</div>
-							<div class="tram">3</div>
-							<div class="tram">4</div>
-						</div>
-						<div class="tram-T">
-							<p class="T">C</p>
-							<div class="bus">1</div>
-							<div class="bus">3</div>
-							<div class="bus">4</div>
-						</div>
-					</div>
-					<div class="colonne-part">
-						<h2>Charpennes</h2>
-						<div class="ronds"></div>
-						<div class="tram-T">
-							<p class="T">T</p>
-							<div class="tram">1</div>
-							<div class="tram">3</div>
-							<div class="tram">4</div>
-						</div>
-						<div class="tram-T">
-							<p class="T">C</p>
-							<div class="bus">1</div>
-							<div class="bus">3</div>
-							<div class="bus">4</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</main>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subway-station-network</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+JP:wght@100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="date">22/09/2025</div>
+      <div class="lig-cor-row">
+        <div class="ligne-B">
+          <h1 class="ligne-B-text">Ligne B - Traffic perturbé</h1>
+        </div>
+        <div class="correspondances">
+          <div class="colonne-part">
+            <h2 class="hidden">Text caché</h2>
+            <div class="dashed-bar"></div>
+          </div>
+          <div class="colonne-part">
+            <h2>Gare Part-Dieu</h2>
+            <div>
+              <div class="barre"><div class="ronds"></div></div>
+            </div>
+            <div class="tram-T">
+              <p class="T">T</p>
+              <div class="tram">1</div>
+              <div class="tram">3</div>
+              <div class="tram">4</div>
+            </div>
+            <div class="tram-T">
+              <p class="T">C</p>
+              <div class="chiffres-bus">
+                <div class="bus">1</div>
+                <div class="bus">2</div>
+                <div class="bus">3</div>
+                <div class="bus">6</div>
+                <div class="bus">7</div>
+                <div class="bus">13</div>
+                <div class="bus">25</div>
+              </div>
+            </div>
+          </div>
+          <div class="colonne-part">
+            <h2>Brotteaux</h2>
+            <div>
+              <div class="barre"><div class="ronds"></div></div>
+            </div>
+            <div class="tram-T">
+              <p class="T">C</p>
+              <div class="chiffres-bus">
+                <div class="bus">1</div>
+                <div class="bus">2</div>
+                <div class="bus">3</div>
+                <div class="bus">6</div>
+              </div>
+            </div>
+            <p class="T-bus">BUS</p>
+          </div>
+          <div class="colonne-part">
+            <h2>Charpennes</h2>
+            <div>
+              <div class="barre"><div class="ronds"></div></div>
+            </div>
+            <div class="tram-T">
+              <p class="T">M</p>
+              <div class="metro">A</div>
+            </div>
+            <div class="tram-T">
+              <p class="T">T</p>
+              <div class="tram">1</div>
+              <div class="tram">4</div>
+            </div>
+            <div class="tram-T">
+              <p class="T">C</p>
+              <div class="bus">2</div>
+              <div class="bus">16</div>
+              <div class="bus">13</div>
+            </div>
+            <p class="T-bus">BUS</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
